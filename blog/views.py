@@ -10,3 +10,6 @@ def challenges_international_students_view(request):
 def challenges_international_students_europe_view(request):
     return render(request,'blog/4-sources-to-find-scholarships-in-europe.html')
 
+def challenges_international_students_canada_view(request):
+    return render(request,'blog/5-challenges-of-international-students-in-canada.html')
+
