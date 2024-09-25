@@ -13,3 +13,5 @@ def challenges_international_students_europe_view(request):
 def challenges_international_students_canada_view(request):
     return render(request,'blog/5-challenges-of-international-students-in-canada.html')
 
+def canada_indian_students_view(request):
+    return render(request,'blog/best-canadian-universities-for-indian-students.html')
