@@ -12,5 +12,6 @@ urlpatterns = [
     path('4-sources-to-find-scholarships-in-europe',challenges_international_students_europe_view,name='challenges-international-students-europe'),
     path('5-challenges-of-international-students-in-canada',challenges_international_students_canada_view,name='challenges-international-students-canada'),
     path('best-canadian-universities-for-indian-students',canada_indian_students_view,name='best-canadian-universities-for-indian-students'),
+    path('test',test_view)
 ]
 urlpatterns += static(settings.STATIC_URL, view=cache_control(no_cache=True, must_revalidate=True)(serve))

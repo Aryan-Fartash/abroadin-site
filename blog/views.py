@@ -15,3 +15,6 @@ def challenges_international_students_canada_view(request):
 
 def canada_indian_students_view(request):
     return render(request,'blog/best-canadian-universities-for-indian-students.html')
+
+def test_view(request):
+    return render(request,'base.html')

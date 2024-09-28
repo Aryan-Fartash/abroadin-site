@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -424,7 +425,7 @@
     }
   </style>
   <link rel='stylesheet' id='rate-my-post-css'
-    href='https://abroadin.com/blog/wp-content/plugins/rate-my-post/public/css/rate-my-post.min.css?ver=4.2.0'
+    href="{% static 'blog/wp-content/plugins/rate-my-post/public/css/rate-my-post.min.css?ver=4.2.0' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='dashicons-css' href='https://abroadin.com/blog/wp-includes/css/dashicons.min.css?ver=6.6.2'
     type='text/css' media='all' />
@@ -520,10 +521,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <script defer id="jquery-core-js-extra"
     src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwp2YXIgcHAgPSB7ImFqYXhfdXJsIjoiaHR0cHM6XC9cL2Ficm9hZGluLmNvbVwvYmxvZ1wvd3AtYWRtaW5cL2FkbWluLWFqYXgucGhwIn07Ci8qIF1dPiAqLwo="></script>
-  <script type="text/javascript" src="https://abroadin.com/blog/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+  <script type="text/javascript" src="{% static 'blog/wp-includes/js/jquery/jquery.min.js?ver=3.7.1' %}"
     id="jquery-core-js"></script>
   <script defer type="text/javascript"
-    src="https://abroadin.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    src="{ % static 'blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' %}"
     id="jquery-migrate-js"></script>
   <script defer id="contactus-js-extra"
     src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwp2YXIgYXJDVVZhcnMgPSB7InVybCI6Imh0dHBzOlwvXC9hYnJvYWRpbi5jb21cL2Jsb2dcL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsInZlcnNpb24iOiIyLjIuNyIsIl93cG5vbmNlIjoiPGlucHV0IHR5cGU9XCJoaWRkZW5cIiBpZD1cIl93cG5vbmNlXCIgbmFtZT1cIl93cG5vbmNlXCIgdmFsdWU9XCI0ZjQ3NTg0ZmUwXCIgXC8+PGlucHV0IHR5cGU9XCJoaWRkZW5cIiBuYW1lPVwiX3dwX2h0dHBfcmVmZXJlclwiIHZhbHVlPVwiXC9ibG9nXC9ob3ctdG8tYXBwbHktdG8tdXMtY29sbGVnZXNcL1wiIFwvPiJ9OwovKiBdXT4gKi8K"></script>
