@@ -17,4 +17,4 @@ def canada_indian_students_view(request):
     return render(request,'blog/best-canadian-universities-for-indian-students.html')
 
 def test_view(request):
-    return render(request,'base.html')
+    return render(request,'base2.html')
