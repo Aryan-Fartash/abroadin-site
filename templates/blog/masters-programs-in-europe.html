@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{%load static%}
 {% block context %}
 <!DOCTYPE html>
 <html lang="en-US">
@@ -12,7 +13,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-  <link rel="preload" href="https://abroadin.com/blog/wp-content/plugins/rate-my-post/public/css/fonts/ratemypost.ttf"
+  <link rel="preload" href="{% static  'blog/wp-content/plugins/rate-my-post/public/css/fonts/ratemypost.ttf' %}"
     type="font/ttf" as="font" crossorigin="anonymous">
   <title>To 10 Masters Programs in Europe for American Students - Abroadin</title>
   <meta name="description"
@@ -28,7 +29,7 @@
   <meta property="article:published_time" content="2024-08-04T19:37:24+00:00" />
   <meta property="article:modified_time" content="2024-08-21T11:21:50+00:00" />
   <meta property="og:image"
-    content="https://abroadin.com/blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp" />
+    content="{% statuc  'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp' %}" />
   <meta property="og:image:width" content="2560" />
   <meta property="og:image:height" content="1768" />
   <meta property="og:image:type" content="image/webp" />
@@ -39,7 +40,7 @@
   <meta name="twitter:label2" content="Est. reading time" />
   <meta name="twitter:data2" content="10 minutes" />
   <script type="application/ld+json"
-    class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://abroadin.com/blog/masters-programs-in-europe/","url":"https://abroadin.com/blog/masters-programs-in-europe/","name":"To 10 Masters Programs in Europe for American Students - Abroadin","isPartOf":{"@id":"https://abroadin.com/blog/#website"},"primaryImageOfPage":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage"},"image":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage"},"thumbnailUrl":"https://abroadin.com/blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp","datePublished":"2024-08-04T19:37:24+00:00","dateModified":"2024-08-21T11:21:50+00:00","author":{"@id":"https://abroadin.com/blog/#/schema/person/395064ed8c7f44ed8e8a814447a8de8d"},"description":"This Abroadin blog post includes a list of the best programs across prestigious universities, offering diverse fields from Business to Law.","breadcrumb":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://abroadin.com/blog/masters-programs-in-europe/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage","url":"https://abroadin.com/blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp","contentUrl":"https://abroadin.com/blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp","width":2560,"height":1768,"caption":"masters programs in europe"},{"@type":"BreadcrumbList","@id":"https://abroadin.com/blog/masters-programs-in-europe/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://abroadin.com/blog/"},{"@type":"ListItem","position":2,"name":"To 10 Masters Programs in Europe for American Students"}]},{"@type":"WebSite","@id":"https://abroadin.com/blog/#website","url":"https://abroadin.com/blog/","name":"Abroadin","description":"Blog","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://abroadin.com/blog/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://abroadin.com/blog/#/schema/person/395064ed8c7f44ed8e8a814447a8de8d","name":"Mohammad Amin Bakhtiarian","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abroadin.com/blog/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/f6a00734d30254c172bddd1fd92e85d8?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/f6a00734d30254c172bddd1fd92e85d8?s=96&d=mm&r=g","caption":"Mohammad Amin Bakhtiarian"},"url":"https://abroadin.com/blog/author/amin/"}]}</script>
+    class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://abroadin.com/blog/masters-programs-in-europe/","url":"https://abroadin.com/blog/masters-programs-in-europe/","name":"To 10 Masters Programs in Europe for American Students - Abroadin","isPartOf":{"@id":"https://abroadin.com/blog/#website"},"primaryImageOfPage":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage"},"image":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage"},"thumbnailUrl":"{%static  'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp' %}","datePublished":"2024-08-04T19:37:24+00:00","dateModified":"2024-08-21T11:21:50+00:00","author":{"@id":"https://abroadin.com/blog/#/schema/person/395064ed8c7f44ed8e8a814447a8de8d"},"description":"This Abroadin blog post includes a list of the best programs across prestigious universities, offering diverse fields from Business to Law.","breadcrumb":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://abroadin.com/blog/masters-programs-in-europe/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage","url":"{%static  'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp' %}","contentUrl":"{%static  'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp' %}","width":2560,"height":1768,"caption":"masters programs in europe"},{"@type":"BreadcrumbList","@id":"https://abroadin.com/blog/masters-programs-in-europe/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://abroadin.com/blog/"},{"@type":"ListItem","position":2,"name":"To 10 Masters Programs in Europe for American Students"}]},{"@type":"WebSite","@id":"https://abroadin.com/blog/#website","url":"https://abroadin.com/blog/","name":"Abroadin","description":"Blog","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://abroadin.com/blog/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://abroadin.com/blog/#/schema/person/395064ed8c7f44ed8e8a814447a8de8d","name":"Mohammad Amin Bakhtiarian","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abroadin.com/blog/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/f6a00734d30254c172bddd1fd92e85d8?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/f6a00734d30254c172bddd1fd92e85d8?s=96&d=mm&r=g","caption":"Mohammad Amin Bakhtiarian"},"url":"https://abroadin.com/blog/author/amin/"}]}</script>
   <link rel='dns-prefetch' href='//www.googletagmanager.com' />
   <link rel='dns-prefetch' href='//use.fontawesome.com' />
   <link rel="alternate" type="application/rss+xml" title="Abroadin  &raquo; Feed"
@@ -426,143 +427,143 @@
     }
   </style>
   <link rel='stylesheet' id='rate-my-post-css'
-    href='https://abroadin.com/blog/wp-content/plugins/rate-my-post/public/css/rate-my-post.min.css?ver=4.2.3'
+    href="{%static  'blog/wp-content/plugins/rate-my-post/public/css/rate-my-post.min.css@ver=4.2.3' %}"
     type='text/css' media='all' />
-  <link rel='stylesheet' id='dashicons-css' href='https://abroadin.com/blog/wp-includes/css/dashicons.min.css?ver=6.6.2'
+  <link rel='stylesheet' id='dashicons-css' href="{%static  'blog/wp-includes/css/dashicons.min.css@ver=6.6.2' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='contactus.css-css'
-    href='https://abroadin.com/blog/wp-content/plugins/ar-contactus/res/css/contactus.min.css?ver=2.2.7' type='text/css'
+    href="{%static  'blog/wp-content/plugins/ar-contactus/res/css/contactus.min.css@ver=2.2.7' %}" type='text/css'
     media='all' />
   <link rel='stylesheet' id='contactus.generated.desktop.css-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_62cd134f8ab543061ca4eefff996c9f5.css?ver=1727348991'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_62cd134f8ab543061ca4eefff996c9f5.css@ver=1727348991' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='contactus.fa.css-css'
-    href='https://use.fontawesome.com/releases/v5.8.1/css/all.css?ver=2.2.7' type='text/css' media='all' />
+    href='https://use.fontawesome.com/releases/v5.8.1/css/all.css@ver=2.2.7' type='text/css' media='all' />
   <link rel='stylesheet' id='jupiterx-popups-animation-css'
-    href='https://abroadin.com/blog/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/lib/animate/animate.min.css?ver=4.6.0'
+    href="{%static  'blog/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/lib/animate/animate.min.css@ver=4.6.0' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='jupiterx-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_852f3f8c028f13c63d3f2dd82845ae8d.css?ver=4.6.0'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_852f3f8c028f13c63d3f2dd82845ae8d.css@ver=4.6.0' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='jupiterx-elements-dynamic-styles-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_bf6d56a3a3306ef8fd04c050476e1b3b.css?ver=4.6.0'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_bf6d56a3a3306ef8fd04c050476e1b3b.css@ver=4.6.0' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-frontend-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.24.4' type='text/css'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/css/frontend.min.css@ver=3.24.4' %}" type='text/css'
     media='all' />
   <link rel='stylesheet' id='widget-image-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.24.4'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/css/widget-image.min.css@ver=3.24.4' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='widget-heading-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.24.4'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/css/widget-heading.min.css@ver=3.24.4' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='widget-text-editor-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.24.4'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css@ver=3.24.4' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='e-animation-fadeInUp-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.24.4'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css@ver=3.24.4' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='jet-elements-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_5622cda30b79781b8f8eadca63b0faaa.css?ver=2.6.20.1'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_5622cda30b79781b8f8eadca63b0faaa.css@ver=2.6.20.1' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='jet-elements-skin-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_d14bfa1eb5039aa635f9a4467a4fc042.css?ver=2.6.20.1'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_d14bfa1eb5039aa635f9a4467a4fc042.css@ver=2.6.20.1' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-icons-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.31.0'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css@ver=5.31.0' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='swiper-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css@ver=8.4.5' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='e-swiper-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.24.4'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css@ver=3.24.4' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='font-awesome-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css@ver=4.7.0' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='jupiterx-core-raven-frontend-css'
-    href='https://abroadin.com/blog/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/css/frontend.min.css?ver=6.6.2'
+    href="{%static  'blog/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/css/frontend.min.css@ver=6.6.2' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-850-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_18210768a0bf325c59dcc17edd8aded0.css?ver=1727352379'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_18210768a0bf325c59dcc17edd8aded0.css@ver=1727352379' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='powerpack-frontend-css'
-    href='https://abroadin.com/blog/wp-content/plugins/powerpack-elements/assets/css/min/frontend.min.css?ver=2.10.9'
+    href="{%static  'blog/wp-content/plugins/powerpack-elements/assets/css/min/frontend.min.css@ver=2.10.9' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-pro-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.24.2'
+    href="{%static  'blog/wp-content/plugins/elementor-pro/assets/css/frontend.min.css@ver=3.24.2' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='uael-frontend-css'
-    href='https://abroadin.com/blog/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.36.28'
+    href="{%static  'blog/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css@ver=1.36.28' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='jet-blog-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_c0d1e771660a4a05efc21da2eee6a008.css?ver=2.4.0'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_c0d1e771660a4a05efc21da2eee6a008.css@ver=2.4.0' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='flatpickr-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?ver=4.1.4'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css@ver=4.1.4' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-global-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_11d03a6e528d1d66ed2a15af9f69e486.css?ver=1727352383'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_11d03a6e528d1d66ed2a15af9f69e486.css@ver=1727352383' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='widget-toggle-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/css/widget-toggle.min.css?ver=3.24.4'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/css/widget-toggle.min.css@ver=3.24.4' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='widget-forms-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor-pro/assets/css/widget-forms.min.css?ver=3.24.2'
+    href="{%static  'blog/wp-content/plugins/elementor-pro/assets/css/widget-forms.min.css@ver=3.24.2' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-2604-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_15421bb195b5e76f35d0ffd3f072e183.css?ver=1727358325'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_15421bb195b5e76f35d0ffd3f072e183.css@ver=1727358325' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-2633-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_f3751d03f81891c76f416eb3695a9035.css?ver=1727352383'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_f3751d03f81891c76f416eb3695a9035.css@ver=1727352383' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-158-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_a12f5cf19044d1cf6f54188c80cfaa35.css?ver=1727352383'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_a12f5cf19044d1cf6f54188c80cfaa35.css@ver=1727352383' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-184-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_14dfeeb79378022f3806d3b757576581.css?ver=1727352383'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_14dfeeb79378022f3806d3b757576581.css@ver=1727352383' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-188-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_4dcddc2284a71acf71a281964e1420d2.css?ver=1727352384'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_4dcddc2284a71acf71a281964e1420d2.css@ver=1727352384' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='pakat-front-css-css'
-    href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_448f2be5a8ac1966d377308e9a71d1b6.css?ver=6.6.2'
+    href="{%static  'blog/wp-content/cache/autoptimize/css/autoptimize_single_448f2be5a8ac1966d377308e9a71d1b6.css@ver=6.6.2' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='google-fonts-1-css'
     href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.2'
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-icons-shared-0-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css@ver=5.15.3' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css@ver=5.15.3' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-icons-fa-brands-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
+    href="{%static  'blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css@ver=5.15.3' %}"
     type='text/css' media='all' />
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <script defer id="jquery-core-js-extra"
     src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwp2YXIgcHAgPSB7ImFqYXhfdXJsIjoiaHR0cHM6XC9cL2Ficm9hZGluLmNvbVwvYmxvZ1wvd3AtYWRtaW5cL2FkbWluLWFqYXgucGhwIn07Ci8qIF1dPiAqLwo="></script>
-  <script type="text/javascript" src="https://abroadin.com/blog/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+  <script type="text/javascript" src="{%static  'blog/wp-includes/js/jquery/jquery.min.js@ver=3.7.1' %}"
     id="jquery-core-js"></script>
   <script defer type="text/javascript"
-    src="https://abroadin.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    src="{%static  'blog/wp-includes/js/jquery/jquery-migrate.min.js@ver=3.4.1' %}"
     id="jquery-migrate-js"></script>
   <script defer id="contactus-js-extra"
     src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwp2YXIgYXJDVVZhcnMgPSB7InVybCI6Imh0dHBzOlwvXC9hYnJvYWRpbi5jb21cL2Jsb2dcL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsInZlcnNpb24iOiIyLjIuNyIsIl93cG5vbmNlIjoiPGlucHV0IHR5cGU9XCJoaWRkZW5cIiBpZD1cIl93cG5vbmNlXCIgbmFtZT1cIl93cG5vbmNlXCIgdmFsdWU9XCIyODQ4ODhmYjA0XCIgXC8+PGlucHV0IHR5cGU9XCJoaWRkZW5cIiBuYW1lPVwiX3dwX2h0dHBfcmVmZXJlclwiIHZhbHVlPVwiXC9ibG9nXC9tYXN0ZXJzLXByb2dyYW1zLWluLWV1cm9wZVwvXCIgXC8+In07Ci8qIF1dPiAqLwo="></script>
   <script defer type="text/javascript"
-    src="https://abroadin.com/blog/wp-content/plugins/ar-contactus/res/js/contactus.min.js?ver=2.2.7"
+    src="{%static  'blog/wp-content/plugins/ar-contactus/res/js/contactus.min.js@ver=2.2.7' %}"
     id="contactus-js"></script>
   <script defer type="text/javascript"
-    src="https://abroadin.com/blog/wp-content/cache/autoptimize/js/autoptimize_single_8d673f3518d7a551b572098e8bd262bc.js?ver=2.2.7"
+    src="{%static  'blog/wp-content/cache/autoptimize/js/autoptimize_single_8d673f3518d7a551b572098e8bd262bc.js@ver=2.2.7' %}"
     id="contactus.scripts-js"></script>
   <script defer type="text/javascript"
-    src="https://abroadin.com/blog/wp-content/themes/jupiterx/lib/admin/assets/lib/webfont/webfont.min.js?ver=1.6.26"
+    src="{%static  'blog/wp-content/themes/jupiterx/lib/admin/assets/lib/webfont/webfont.min.js@ver=1.6.26' %}"
     id="jupiterx-webfont-js"></script>
   <script defer id="jupiterx-webfont-js-after"
     src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwpXZWJGb250LmxvYWQoewoJCQkJZ29vZ2xlOiB7CgkJCQkJZmFtaWxpZXM6IFsnUnViaWs6MTAwLDIwMCwzMDAsNDAwLDUwMCw2MDAsNzAwLDgwMCw5MDAsMTAwaXRhbGljLDIwMGl0YWxpYywzMDBpdGFsaWMsNDAwaXRhbGljLDUwMGl0YWxpYyw2MDBpdGFsaWMsNzAwaXRhbGljLDgwMGl0YWxpYyw5MDBpdGFsaWMnXQoJCQkJfQoJCQl9KTsKLyogXV0+ICovCg=="></script>
   <script defer type="text/javascript"
-    src="https://abroadin.com/blog/wp-content/themes/jupiterx/lib/assets/dist/js/utils.min.js?ver=4.6.0"
+    src="{%static  'blog/wp-content/themes/jupiterx/lib/assets/dist/js/utils.min.js@ver=4.6.0' %}"
     id="jupiterx-utils-js"></script>
   <script defer type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-P59CKBFXPF"
     id="google_gtagjs-js"></script>
@@ -571,7 +572,7 @@
   <script defer id="pakat-front-js-js-extra"
     src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwp2YXIgcGFrYXRFcnJNc2cgPSB7ImludmFsaWRNYWlsIjoiUGxlYXNlIGZpbGwgb3V0IHZhbGlkIGVtYWlsIGFkZHJlc3MiLCJyZXF1aXJlZEZpZWxkIjoiUGxlYXNlIGZpbGwgb3V0IHJlcXVpcmVkIGZpZWxkcyIsImludmFsaWREYXRlRm9ybWF0IjoiUGxlYXNlIGZpbGwgb3V0IHZhbGlkIGRhdGUgZm9ybWF0IiwiaW52YWxpZFNNU0Zvcm1hdCI6IlBsZWFzZSBmaWxsIG91dCB2YWxpZCBwaG9uZSBudW1iZXIifTsKdmFyIGFqYXhfcGFrYXRfZnJvbnRfb2JqZWN0ID0geyJhamF4X3VybCI6Imh0dHBzOlwvXC9hYnJvYWRpbi5jb21cL2Jsb2dcL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsImFqYXhfbm9uY2UiOiIzYzA4YTEwOTI4IiwiZmxhZ191cmwiOiJodHRwczpcL1wvYWJyb2FkaW4uY29tXC9ibG9nXC93cC1jb250ZW50XC9wbHVnaW5zXC93b3JkcHJlc3MtcGx1Z2luLW1hc3RlclwvaW1nXC9mbGFnc1wvIn07Ci8qIF1dPiAqLwo="></script>
   <script defer type="text/javascript"
-    src="https://abroadin.com/blog/wp-content/cache/autoptimize/js/autoptimize_single_ff8b442b83ebbd634810551cafc580c6.js?ver=1719999790"
+    src="{%static  'blog/wp-content/cache/autoptimize/js/autoptimize_single_ff8b442b83ebbd634810551cafc580c6.js@ver=1719999790' %}"
     id="pakat-front-js-js"></script>
   <link rel="https://api.w.org/" href="https://abroadin.com/blog/wp-json/" />
   <link rel="alternate" title="JSON" type="application/json"
@@ -617,12 +618,12 @@
   </style>
   <link rel="pingback" href="https://abroadin.com/blog/xmlrpc.php">
   <style id="wpsp-style-frontend"></style>
-  <link rel="icon" href="https://abroadin.com/blog/wp-content/uploads/2022/12/cropped-logo-32x32.png" sizes="32x32" />
-  <link rel="icon" href="https://abroadin.com/blog/wp-content/uploads/2022/12/cropped-logo-192x192.png"
+  <link rel="icon" href="{%static  'blog/wp-content/uploads/2022/12/cropped-logo-32x32.png' %}" sizes="32x32" />
+  <link rel="icon" href="{%static  'blog/wp-content/uploads/2022/12/cropped-logo-192x192.png' %}"
     sizes="192x192" />
-  <link rel="apple-touch-icon" href="https://abroadin.com/blog/wp-content/uploads/2022/12/cropped-logo-180x180.png" />
+  <link rel="apple-touch-icon" href="{%static  'blog/wp-content/uploads/2022/12/cropped-logo-180x180.png"' %} />
   <meta name="msapplication-TileImage"
-    content="https://abroadin.com/blog/wp-content/uploads/2022/12/cropped-logo-270x270.png" />
+    content="{%static  'blog/wp-content/uploads/2022/12/cropped-logo-270x270.png' %}" />
 </head>
 
 <body
@@ -775,7 +776,7 @@
                   data-id="50df37a" data-element_type="widget" data-widget_type="raven-image.default">
                   <div class="elementor-widget-container">
                     <div class="raven-image"> <img
-                        src="https://abroadin.com/blog/wp-content/uploads/elementor/thumbs/hands-waving-flags-europeanunion-scaled-qs4m5plg3vto4b600sayciqqchjqfgwxu82xwgqoog.webp"
+                        src="{%static  'blog/wp-content/uploads/elementor/thumbs/hands-waving-flags-europeanunion-scaled-qs4m5plg3vto4b600sayciqqchjqfgwxu82xwgqoog.webp' %}"
                         title="" alt="masters programs in europe" loading="lazy" /></div>
                   </div>
                 </div>
@@ -883,11 +884,11 @@
                                     <body> <a
                                         href="https://abroadin.com/consulting?utm_source=WordPress%20website%20&utm_medium=blog-traffic&utm_content=banner&utm_campaign=blog-service-cta-banner"
                                         target="_blank"> <img decoding="async"
-                                          src="https://abroadin.com/blog/wp-content/uploads/2024/09/desktop-Banner-Ad-1.gif"
+                                          src="{%static  'blog/wp-content/uploads/2024/09/desktop-Banner-Ad-1.gif' %}"
                                           alt="Abroadin services" class="banner-desktop" /> </a> <a
                                         href="https://abroadin.com/consulting?utm_source=WordPress%20website%20&utm_medium=blog-traffic&utm_content=banner&utm_campaign=blog-service-cta-banner"
                                         target="_blank"> <img decoding="async"
-                                          src="https://abroadin.com/blog/wp-content/uploads/2024/09/Mobile-Banner-Ad-2.gif"
+                                          src="{%static  'blog/wp-content/uploads/2024/09/Mobile-Banner-Ad-2.gif' %}"
                                           alt="Abroadin services" class="banner-mobile" /> </a></body>
 
                                     </html>
@@ -973,9 +974,9 @@
                                   </p>
                                   <p><img fetchpriority="high" fetchpriority="high" decoding="async"
                                       class="aligncenter wp-image-2606 size-full"
-                                      src="https://abroadin.com/blog/wp-content/uploads/2024/08/happy-graduated-student-2-scaled.webp"
+                                      src="{%static  'blog/wp-content/uploads/2024/08/happy-graduated-student-2-scaled.webp' %}"
                                       alt="masters programs in europe" width="2560" height="1648"
-                                      srcset="https://abroadin.com/blog/wp-content/uploads/2024/08/happy-graduated-student-2-scaled.webp 2560w, https://abroadin.com/blog/wp-content/uploads/2024/08/happy-graduated-student-2-300x193.webp 300w, https://abroadin.com/blog/wp-content/uploads/2024/08/happy-graduated-student-2-1024x659.webp 1024w, https://abroadin.com/blog/wp-content/uploads/2024/08/happy-graduated-student-2-768x495.webp 768w, https://abroadin.com/blog/wp-content/uploads/2024/08/happy-graduated-student-2-1536x989.webp 1536w, https://abroadin.com/blog/wp-content/uploads/2024/08/happy-graduated-student-2-2048x1319.webp 2048w"
+                                      srcset="{%static  'blog/wp-content/uploads/2024/08/happy-graduated-student-2-scaled.webp' %} 2560w, {%static  'blog/wp-content/uploads/2024/08/happy-graduated-student-2-300x193.webp' %} 300w, {%static  'blog/wp-content/uploads/2024/08/happy-graduated-student-2-1024x659.webp 1024w, {%static  'blog/wp-content/uploads/2024/08/happy-graduated-student-2-768x495.webp' %} 768w, {%static  'blog/wp-content/uploads/2024/08/happy-graduated-student-2-1536x989.webp' %} 1536w, {%static  'blog/wp-content/uploads/2024/08/happy-graduated-student-2-2048x1319.webp' %} 2048w"
                                       sizes="(max-width: 2560px) 100vw, 2560px" /></p>
                                   <h2>3. Master&#8217;s Degree in Continuing Education in Medical Education</h2>
                                   <ul>
@@ -1080,11 +1081,11 @@
                                     <body> <a
                                         href="https://abroadin.com/pricing?utm_source=website&utm_medium=blog-traffic&utm_campaign=blog-service-cta-banner&utm_id=1&utm_term=blog-service-cta-banner&utm_content=banner"
                                         target="_blank"> <img decoding="async"
-                                          src="https://abroadin.com/blog/wp-content/uploads/2024/09/desktop-Banner-Ad-2.png"
+                                          src="{%static  'blog/wp-content/uploads/2024/09/desktop-Banner-Ad-2.png' %}"
                                           alt="Abroadin services" class="banner-desktop" /> </a> <a
                                         href="https://abroadin.com/pricing?utm_source=website&utm_medium=blog-traffic&utm_campaign=blog-service-cta-banner&utm_id=1&utm_term=blog-service-cta-banner&utm_content=banner"
                                         target="_blank"> <img decoding="async"
-                                          src="https://abroadin.com/blog/wp-content/uploads/2024/09/Mobile-Banner-Ad-2-.png"
+                                          src="{%static  'blog/wp-content/uploads/2024/09/Mobile-Banner-Ad-2-.png' %}"
                                           alt="Abroadin services" class="banner-mobile" /> </a></body>
 
                                     </html>
@@ -1165,9 +1166,9 @@
                                   </div>
                                   </p>
                                   <p><img decoding="async" class="aligncenter wp-image-2607 size-full"
-                                      src="https://abroadin.com/blog/wp-content/uploads/2024/08/blank-map-europe-countries-scaled.webp"
+                                      src="{%static  'blog/wp-content/uploads/2024/08/blank-map-europe-countries-scaled.webp"
                                       alt="masters programs in europe" width="2560" height="1751"
-                                      srcset="https://abroadin.com/blog/wp-content/uploads/2024/08/blank-map-europe-countries-scaled.webp 2560w, https://abroadin.com/blog/wp-content/uploads/2024/08/blank-map-europe-countries-300x205.webp 300w, https://abroadin.com/blog/wp-content/uploads/2024/08/blank-map-europe-countries-1024x700.webp 1024w, https://abroadin.com/blog/wp-content/uploads/2024/08/blank-map-europe-countries-768x525.webp 768w, https://abroadin.com/blog/wp-content/uploads/2024/08/blank-map-europe-countries-1536x1051.webp 1536w, https://abroadin.com/blog/wp-content/uploads/2024/08/blank-map-europe-countries-2048x1401.webp 2048w"
+                                      srcset="{%static  'blog/wp-content/uploads/2024/08/blank-map-europe-countries-scaled.webp' %} 2560w, {%static  'blog/wp-content/uploads/2024/08/blank-map-europe-countries-300x205.webp' %} 300w, {%static  'blog/wp-content/uploads/2024/08/blank-map-europe-countries-1024x700.webp' %} 1024w, {%static  'blog/wp-content/uploads/2024/08/blank-map-europe-countries-768x525.webp' %} 768w, {%static  'blog/wp-content/uploads/2024/08/blank-map-europe-countries-1536x1051.webp' %} 1536w, {%static  'blog/wp-content/uploads/2024/08/blank-map-europe-countries-2048x1401.webp' %} 2048w"
                                       sizes="(max-width: 2560px) 100vw, 2560px" /></p>
                                   <h2>7. Microbiology and Microbial Biotechnology</h2>
                                   <ul>
@@ -1582,7 +1583,7 @@
                           <div class="raven-post-image-wrap"> <a class="raven-post-image raven-image-fit"
                               href="https://abroadin.com/blog/best-canadian-universities-for-indian-students/"><img
                                 loading="lazy" width="800" height="600"
-                                src="https://abroadin.com/blog/wp-content/uploads/2024/08/Untitled-design-26.jpg"
+                                src="{%static  'blog/wp-content/uploads/2024/08/Untitled-design-26.jpg' %}"
                                 class="attachment-large size-large wp-image-2746" alt="" /> <span
                                 class="raven-post-image-overlay"></span></a></div>
                           <div class="raven-post-content">
@@ -1604,7 +1605,7 @@
                           <div class="raven-post-image-wrap"> <a class="raven-post-image raven-image-fit"
                               href="https://abroadin.com/blog/how-to-apply-to-us-colleges/"><img loading="lazy"
                                 width="1024" height="683"
-                                src="https://abroadin.com/blog/wp-content/uploads/2024/08/happy-friends-holding-usa-flags-1024x683.webp"
+                                src="{%static  'blog/wp-content/uploads/2024/08/happy-friends-holding-usa-flags-1024x683.webp' %}"
                                 class="attachment-large size-large wp-image-2686" alt="how to apply to us colleges" />
                               <span class="raven-post-image-overlay"></span></a></div>
                           <div class="raven-post-content">
@@ -1641,7 +1642,7 @@
                                   class="jupiterx-button jupiterx-button-small jupiterx-button-danger jupiterx-margin-small-right"
                                   style="display:none;" href="/blog/masters-programs-in-europe/#respond">Cancel
                                   reply</a></small></h3>
-                            <form action="https://abroadin.com/blog/wp-comments-post.php" method="post" id="commentform"
+                            <form action="{%static  'blog/wp-comments-post.php' %}" method="post" id="commentform"
                               class="comment-form" novalidate>
                               <p class="comment-notes"><span id="email-notes">Your email address will not be
                                   published.</span> <span class="required-field-message">Required fields are marked
@@ -1671,7 +1672,7 @@
                                 data-sitekey="6LdA9RQqAAAAADwfKO1Dm2m-MwJN2InDEtHq8ecx"></div>
                               <script defer
                                 src="data:text/javascript;base64,DQogICAgICAgICAgICBqUXVlcnkoImZvcm0ud29vY29tbWVyY2UtY2hlY2tvdXQiKS5vbigic3VibWl0IiwgZnVuY3Rpb24oKXsNCiAgICAgICAgICAgICAgICBzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7DQogICAgICAgICAgICAgICAgICAgIGdyZWNhcHRjaGEucmVzZXQoKTsNCiAgICAgICAgICAgICAgICB9LDEwMCk7DQogICAgICAgICAgICB9KTsNCiAgICAgICAgICAgIA=="></script>
-                              <script defer src='https://www.google.com/recaptcha/api.js?ver=1.22'
+                              <script defer src='https://www.google.com/recaptcha/api.js@ver=1.22'
                                 id='wpcaptcha-recaptcha-js'></script>
                               <p class="form-submit"><button class="btn btn-dark" type="submit">Submit</button> <input
                                   type='hidden' name='comment_post_ID' value='2604' id='comment_post_ID' /> <input
@@ -1938,7 +1939,7 @@
                                 async defer></script>
                               <form id="pakat_signup_form_3" method="post" class="pakat_signup_form">
                                 <div class="pakat_loader" style="display:none;"><img
-                                    src="https://abroadin.com/blog/wp-includes/images/spinner.gif" alt="loader"></div>
+                                    src="{%static  'blog/wp-includes/images/spinner.gif' %}" alt="loader"></div>
                                 <input type="hidden" name="pakat_form_action" value="subscribe_form_submit"> <input
                                   type="hidden" name="pakat_form_id" value="3"> <input type="hidden"
                                   name="pakat_form_alert_notice" value="Please fill out this field"> <input
@@ -2052,9 +2053,9 @@
                         <div class="elementor-element elementor-element-68bbf43 elementor-widget elementor-widget-image"
                           data-id="68bbf43" data-element_type="widget" data-widget_type="image.default">
                           <div class="elementor-widget-container"> <img loading="lazy" width="400" height="400"
-                              src="https://abroadin.com/blog/wp-content/uploads/2024/09/sidebar-banner-4.png"
+                              src="{% static 'blog/wp-content/uploads/2024/09/sidebar-banner-4.png' %}"
                               class="attachment-large size-large wp-image-2782" alt=""
-                              srcset="https://abroadin.com/blog/wp-content/uploads/2024/09/sidebar-banner-4.png 400w, https://abroadin.com/blog/wp-content/uploads/2024/09/sidebar-banner-4-300x300.png 300w, https://abroadin.com/blog/wp-content/uploads/2024/09/sidebar-banner-4-150x150.png 150w"
+                              srcset="{%static  'blog/wp-content/uploads/2024/09/sidebar-banner-4.png' %} 400w, {%static  'blog/wp-content/uploads/2024/09/sidebar-banner-4-300x300.png' %} 300w, {%static  'blog/wp-content/uploads/2024/09/sidebar-banner-4-150x150.png' %} 150w"
                               sizes="(max-width: 400px) 100vw, 400px" /></div>
                         </div>
                         <div
