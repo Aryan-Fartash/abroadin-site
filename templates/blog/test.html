@@ -1,4 +1,5 @@
-{% extends 'base2.html' %}
+{% extends 'test.html' %}
+{% load static %}
 {% block content %}
 <!DOCTYPE html>
 <html lang="en-US">
@@ -12,7 +13,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-  <link rel="preload" href="https://abroadin.com/blog/wp-content/plugins/rate-my-post/public/css/fonts/ratemypost.ttf"
+  <link rel="preload" href="{% static   'blog/wp-content/plugins/rate-my-post/public/css/fonts/ratemypost.ttf' %}"
     type="font/ttf" as="font" crossorigin="anonymous">
   <title>To 10 Masters Programs in Europe for American Students - Abroadin</title>
   <meta name="description"
@@ -28,7 +29,7 @@
   <meta property="article:published_time" content="2024-08-04T19:37:24+00:00" />
   <meta property="article:modified_time" content="2024-08-21T11:21:50+00:00" />
   <meta property="og:image"
-    content="https://abroadin.com/blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp" />
+    content="{% static   'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp' %}" />
   <meta property="og:image:width" content="2560" />
   <meta property="og:image:height" content="1768" />
   <meta property="og:image:type" content="image/webp" />
@@ -39,7 +40,7 @@
   <meta name="twitter:label2" content="Est. reading time" />
   <meta name="twitter:data2" content="10 minutes" />
   <script type="application/ld+json"
-    class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://abroadin.com/blog/masters-programs-in-europe/","url":"https://abroadin.com/blog/masters-programs-in-europe/","name":"To 10 Masters Programs in Europe for American Students - Abroadin","isPartOf":{"@id":"https://abroadin.com/blog/#website"},"primaryImageOfPage":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage"},"image":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage"},"thumbnailUrl":"https://abroadin.com/blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp","datePublished":"2024-08-04T19:37:24+00:00","dateModified":"2024-08-21T11:21:50+00:00","author":{"@id":"https://abroadin.com/blog/#/schema/person/395064ed8c7f44ed8e8a814447a8de8d"},"description":"This Abroadin blog post includes a list of the best programs across prestigious universities, offering diverse fields from Business to Law.","breadcrumb":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://abroadin.com/blog/masters-programs-in-europe/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage","url":"https://abroadin.com/blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp","contentUrl":"https://abroadin.com/blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp","width":2560,"height":1768,"caption":"masters programs in europe"},{"@type":"BreadcrumbList","@id":"https://abroadin.com/blog/masters-programs-in-europe/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://abroadin.com/blog/"},{"@type":"ListItem","position":2,"name":"To 10 Masters Programs in Europe for American Students"}]},{"@type":"WebSite","@id":"https://abroadin.com/blog/#website","url":"https://abroadin.com/blog/","name":"Abroadin","description":"Blog","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://abroadin.com/blog/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://abroadin.com/blog/#/schema/person/395064ed8c7f44ed8e8a814447a8de8d","name":"Mohammad Amin Bakhtiarian","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abroadin.com/blog/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/f6a00734d30254c172bddd1fd92e85d8?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/f6a00734d30254c172bddd1fd92e85d8?s=96&d=mm&r=g","caption":"Mohammad Amin Bakhtiarian"},"url":"https://abroadin.com/blog/author/amin/"}]}</script>
+    class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://abroadin.com/blog/masters-programs-in-europe/","url":"https://abroadin.com/blog/masters-programs-in-europe/","name":"To 10 Masters Programs in Europe for American Students - Abroadin","isPartOf":{"@id":"https://abroadin.com/blog/#website"},"primaryImageOfPage":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage"},"image":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage"},"thumbnailUrl":"{% static   'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp' %}","datePublished":"2024-08-04T19:37:24+00:00","dateModified":"2024-08-21T11:21:50+00:00","author":{"@id":"https://abroadin.com/blog/#/schema/person/395064ed8c7f44ed8e8a814447a8de8d"},"description":"This Abroadin blog post includes a list of the best programs across prestigious universities, offering diverse fields from Business to Law.","breadcrumb":{"@id":"https://abroadin.com/blog/masters-programs-in-europe/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://abroadin.com/blog/masters-programs-in-europe/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abroadin.com/blog/masters-programs-in-europe/#primaryimage","url":"{% static   'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp' %}","contentUrl":"{% static   'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-scaled.webp' %}","width":2560,"height":1768,"caption":"masters programs in europe"},{"@type":"BreadcrumbList","@id":"https://abroadin.com/blog/masters-programs-in-europe/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://abroadin.com/blog/"},{"@type":"ListItem","position":2,"name":"To 10 Masters Programs in Europe for American Students"}]},{"@type":"WebSite","@id":"https://abroadin.com/blog/#website","url":"https://abroadin.com/blog/","name":"Abroadin","description":"Blog","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://abroadin.com/blog/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://abroadin.com/blog/#/schema/person/395064ed8c7f44ed8e8a814447a8de8d","name":"Mohammad Amin Bakhtiarian","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abroadin.com/blog/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/f6a00734d30254c172bddd1fd92e85d8?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/f6a00734d30254c172bddd1fd92e85d8?s=96&d=mm&r=g","caption":"Mohammad Amin Bakhtiarian"},"url":"https://abroadin.com/blog/author/amin/"}]}</script>
   <link rel='dns-prefetch' href='//www.googletagmanager.com' />
   <link rel='dns-prefetch' href='//use.fontawesome.com' />
   <link rel="alternate" type="application/rss+xml" title="Abroadin  &raquo; Feed"
@@ -426,12 +427,12 @@
     }
   </style>
   <link rel='stylesheet' id='rate-my-post-css'
-    href='https://abroadin.com/blog/wp-content/plugins/rate-my-post/public/css/rate-my-post.min.css?ver=4.2.3'
+    href="{% static   'blog/wp-content/plugins/rate-my-post/public/css/rate-my-post.min.css@ver=4.2.3' %}"
     type='text/css' media='all' />
-  <link rel='stylesheet' id='dashicons-css' href='https://abroadin.com/blog/wp-includes/css/dashicons.min.css?ver=6.6.2'
+  <link rel='stylesheet' id='dashicons-css' href="{% static   'blog/wp-includes/css/dashicons.min.css@ver=6.6.2' %}"
     type='text/css' media='all' />
   <link rel='stylesheet' id='contactus.css-css'
-    href='https://abroadin.com/blog/wp-content/plugins/ar-contactus/res/css/contactus.min.css?ver=2.2.7' type='text/css'
+    href="{% static   'blog/wp-content/plugins/ar-contactus/res/css/contactus.min.css@ver=2.2.7' %}" type='text/css'
     media='all' />
   <link rel='stylesheet' id='contactus.generated.desktop.css-css'
     href='https://abroadin.com/blog/wp-content/cache/autoptimize/css/autoptimize_single_62cd134f8ab543061ca4eefff996c9f5.css?ver=1727348991'
@@ -538,7 +539,7 @@
     href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
     type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-icons-fa-brands-css'
-    href='https://abroadin.com/blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
+    href="{% static   'blog/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css@ver=5.15.3' %}"
     type='text/css' media='all' />
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <script defer id="jquery-core-js-extra"
@@ -571,7 +572,7 @@
   <script defer id="pakat-front-js-js-extra"
     src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwp2YXIgcGFrYXRFcnJNc2cgPSB7ImludmFsaWRNYWlsIjoiUGxlYXNlIGZpbGwgb3V0IHZhbGlkIGVtYWlsIGFkZHJlc3MiLCJyZXF1aXJlZEZpZWxkIjoiUGxlYXNlIGZpbGwgb3V0IHJlcXVpcmVkIGZpZWxkcyIsImludmFsaWREYXRlRm9ybWF0IjoiUGxlYXNlIGZpbGwgb3V0IHZhbGlkIGRhdGUgZm9ybWF0IiwiaW52YWxpZFNNU0Zvcm1hdCI6IlBsZWFzZSBmaWxsIG91dCB2YWxpZCBwaG9uZSBudW1iZXIifTsKdmFyIGFqYXhfcGFrYXRfZnJvbnRfb2JqZWN0ID0geyJhamF4X3VybCI6Imh0dHBzOlwvXC9hYnJvYWRpbi5jb21cL2Jsb2dcL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsImFqYXhfbm9uY2UiOiIzYzA4YTEwOTI4IiwiZmxhZ191cmwiOiJodHRwczpcL1wvYWJyb2FkaW4uY29tXC9ibG9nXC93cC1jb250ZW50XC9wbHVnaW5zXC93b3JkcHJlc3MtcGx1Z2luLW1hc3RlclwvaW1nXC9mbGFnc1wvIn07Ci8qIF1dPiAqLwo="></script>
   <script defer type="text/javascript"
-    src="https://abroadin.com/blog/wp-content/cache/autoptimize/js/autoptimize_single_ff8b442b83ebbd634810551cafc580c6.js?ver=1719999790"
+    src="{% static   'blog/wp-content/cache/autoptimize/js/autoptimize_single_ff8b442b83ebbd634810551cafc580c6.js@ver=1719999790' %}"
     id="pakat-front-js-js"></script>
   <link rel="https://api.w.org/" href="https://abroadin.com/blog/wp-json/" />
   <link rel="alternate" title="JSON" type="application/json"
