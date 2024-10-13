@@ -279,6 +279,7 @@
 </header>
 {% block context %}
 {% endblock %}
+
 <footer class="jupiterx-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
   <div data-elementor-type="footer" data-elementor-id="188" class="elementor elementor-188"
     data-elementor-post-type="elementor_library">
@@ -511,8 +512,8 @@
   href="{% static  'blog/wp-content/plugins/elementor-pro/assets/css/widget-table-of-contents.min.css@ver=3.24.2' %}"
   type='text/css' media='all' />
 <link rel='stylesheet' id='widget-divider-css'
-  href="{% static  'blog/wp-content/plugins/elementor/assets/css/widget-divider.min.css@ver=3.24.4' %}" 
-  type='text/css' media='all' />
+  href="{% static  'blog/wp-content/plugins/elementor/assets/css/widget-divider.min.css@ver=3.24.4' %}" type='text/css'
+  media='all' />
 <link rel='stylesheet' id='widget-share-buttons-css'
   href="{% static  'blog/wp-content/plugins/elementor-pro/assets/css/widget-share-buttons.min.css@ver=3.24.2' %}"
   type='text/css' media='all' />
@@ -523,8 +524,8 @@
   href='https://abroadin.com/blog/wp-content/plugins/elementor-pro/assets/css/widget-theme-elements.min.css?ver=3.24.2'
   type='text/css' media='all' />
 <link rel='stylesheet' id='gform_basic-css'
-  href="{% static  'blog/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css@ver=2.8.8' %}" 
-  type='text/css' media='all' />
+  href="{% static  'blog/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css@ver=2.8.8' %}" type='text/css'
+  media='all' />
 <link rel='stylesheet' id='gform_theme_components-css'
   href="{% static  'blog/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css@ver=2.8.8' %}"
   type='text/css' media='all' />
@@ -532,8 +533,8 @@
   href="{% static  'blog/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css@ver=2.8.8' %}"
   type='text/css' media='all' />
 <link rel='stylesheet' id='gform_theme-css'
-  href="{% static  'blog/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css@ver=2.8.8' %}" 
-  type='text/css' media='all' />
+  href="{% static  'blog/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css@ver=2.8.8' %}" type='text/css'
+  media='all' />
 <link rel='stylesheet' id='widget-social-icons-css'
   href="{% static  'blog/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css@ver=3.24.4' %}"
   type='text/css' media='all' />
@@ -587,8 +588,7 @@
   id="uael-frontend-script-js"></script>
 <script type="text/javascript" src="{% static 'blog/wp-includes/js/wp-embed.min.js@ver=6.6.2' %}" id="wp-embed-js"
   defer="defer" data-wp-strategy="defer"></script>
-<script type="text/javascript"
- src="{% static 'blog/wp-includes/js/dist/dom-ready.min.js@ver=f77871ff7694fffea381' %}"
+<script type="text/javascript" src="{% static 'blog/wp-includes/js/dist/dom-ready.min.js@ver=f77871ff7694fffea381' %}"
   id="wp-dom-ready-js"></script>
 <script type="text/javascript" src="{% static 'blog/wp-includes/js/dist/hooks.min.js@ver=2810c76e705dd1a53b18' %}"
   id="wp-hooks-js"></script>
@@ -599,8 +599,7 @@
 <script type="text/javascript" src="{% static 'blog/wp-includes/js/dist/a11y.min.js@ver=d90eebea464f6c09bfd5' %}"
   id="wp-a11y-js"></script>
 <script type="text/javascript" defer='defer'
-  src="{% static 'blog/wp-content/plugins/gravityforms/js/jquery.json.min.js@ver=2.8.8' %}" 
-  id="gform_json-js"></script>
+  src="{% static 'blog/wp-content/plugins/gravityforms/js/jquery.json.min.js@ver=2.8.8' %}" id="gform_json-js"></script>
 <script defer id="gform_gravityforms-js-extra"
   src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwp2YXIgZ2Zvcm1faTE4biA9IHsiZGF0ZXBpY2tlciI6eyJkYXlzIjp7Im1vbmRheSI6Ik1vIiwidHVlc2RheSI6IlR1Iiwid2VkbmVzZGF5IjoiV2UiLCJ0aHVyc2RheSI6IlRoIiwiZnJpZGF5IjoiRnIiLCJzYXR1cmRheSI6IlNhIiwic3VuZGF5IjoiU3UifSwibW9udGhzIjp7ImphbnVhcnkiOiJKYW51YXJ5IiwiZmVicnVhcnkiOiJGZWJydWFyeSIsIm1hcmNoIjoiTWFyY2giLCJhcHJpbCI6IkFwcmlsIiwibWF5IjoiTWF5IiwianVuZSI6Ikp1bmUiLCJqdWx5IjoiSnVseSIsImF1Z3VzdCI6IkF1Z3VzdCIsInNlcHRlbWJlciI6IlNlcHRlbWJlciIsIm9jdG9iZXIiOiJPY3RvYmVyIiwibm92ZW1iZXIiOiJOb3ZlbWJlciIsImRlY2VtYmVyIjoiRGVjZW1iZXIifSwiZmlyc3REYXkiOjEsImljb25UZXh0IjoiU2VsZWN0IGRhdGUifX07CnZhciBnZl9sZWdhY3lfbXVsdGkgPSBbXTsKdmFyIGdmb3JtX2dyYXZpdHlmb3JtcyA9IHsic3RyaW5ncyI6eyJpbnZhbGlkX2ZpbGVfZXh0ZW5zaW9uIjoiVGhpcyB0eXBlIG9mIGZpbGUgaXMgbm90IGFsbG93ZWQuIE11c3QgYmUgb25lIG9mIHRoZSBmb2xsb3dpbmc6IiwiZGVsZXRlX2ZpbGUiOiJEZWxldGUgdGhpcyBmaWxlIiwiaW5fcHJvZ3Jlc3MiOiJpbiBwcm9ncmVzcyIsImZpbGVfZXhjZWVkc19saW1pdCI6IkZpbGUgZXhjZWVkcyBzaXplIGxpbWl0IiwiaWxsZWdhbF9leHRlbnNpb24iOiJUaGlzIHR5cGUgb2YgZmlsZSBpcyBub3QgYWxsb3dlZC4iLCJtYXhfcmVhY2hlZCI6Ik1heGltdW0gbnVtYmVyIG9mIGZpbGVzIHJlYWNoZWQiLCJ1bmtub3duX2Vycm9yIjoiVGhlcmUgd2FzIGEgcHJvYmxlbSB3aGlsZSBzYXZpbmcgdGhlIGZpbGUgb24gdGhlIHNlcnZlciIsImN1cnJlbnRseV91cGxvYWRpbmciOiJQbGVhc2Ugd2FpdCBmb3IgdGhlIHVwbG9hZGluZyB0byBjb21wbGV0ZSIsImNhbmNlbCI6IkNhbmNlbCIsImNhbmNlbF91cGxvYWQiOiJDYW5jZWwgdGhpcyB1cGxvYWQiLCJjYW5jZWxsZWQiOiJDYW5jZWxsZWQifSwidmFycyI6eyJpbWFnZXNfdXJsIjoiaHR0cHM6XC9cL2Ficm9hZGluLmNvbVwvYmxvZ1wvd3AtY29udGVudFwvcGx1Z2luc1wvZ3Jhdml0eWZvcm1zXC9pbWFnZXMifX07CnZhciBnZl9nbG9iYWwgPSB7ImdmX2N1cnJlbmN5X2NvbmZpZyI6eyJuYW1lIjoiVS5TLiBEb2xsYXIiLCJzeW1ib2xfbGVmdCI6IiQiLCJzeW1ib2xfcmlnaHQiOiIiLCJzeW1ib2xfcGFkZGluZyI6IiIsInRob3VzYW5kX3NlcGFyYXRvciI6IiwiLCJkZWNpbWFsX3NlcGFyYXRvciI6Ii4iLCJkZWNpbWFscyI6MiwiY29kZSI6IlVTRCJ9LCJiYXNlX3VybCI6Imh0dHBzOlwvXC9hYnJvYWRpbi5jb21cL2Jsb2dcL3dwLWNvbnRlbnRcL3BsdWdpbnNcL2dyYXZpdHlmb3JtcyIsIm51bWJlcl9mb3JtYXRzIjpbXSwic3Bpbm5lclVybCI6Imh0dHBzOlwvXC9hYnJvYWRpbi5jb21cL2Jsb2dcL3dwLWNvbnRlbnRcL3BsdWdpbnNcL2dyYXZpdHlmb3Jtc1wvaW1hZ2VzXC9zcGlubmVyLnN2ZyIsInZlcnNpb25faGFzaCI6ImM5YjE5YTkzNDI4MDU5NzQwM2FjYjk2ODY3MWEyNDc5Iiwic3RyaW5ncyI6eyJuZXdSb3dBZGRlZCI6Ik5ldyByb3cgYWRkZWQuIiwicm93UmVtb3ZlZCI6IlJvdyByZW1vdmVkIiwiZm9ybVNhdmVkIjoiVGhlIGZvcm0gaGFzIGJlZW4gc2F2ZWQuICBUaGUgY29udGVudCBjb250YWlucyB0aGUgbGluayB0byByZXR1cm4gYW5kIGNvbXBsZXRlIHRoZSBmb3JtLiJ9fTsKLyogXV0+ICovCg=="></script>
 <script type="text/javascript" defer='defer'
@@ -671,8 +670,7 @@
 <script defer id="jet-blog-js-extra"
   src="data:text/javascript;base64,Ci8qIDwhW0NEQVRBWyAqLwp2YXIgSmV0QmxvZ1NldHRpbmdzID0geyJhamF4dXJsIjoiaHR0cHM6XC9cL2Ficm9hZGluLmNvbVwvYmxvZ1wvbWFzdGVycy1wcm9ncmFtcy1pbi1ldXJvcGVcLz9ub2NhY2hlPTE3Mjc1OTk5ODgmamV0X2Jsb2dfYWpheD0xIn07Ci8qIF1dPiAqLwo="></script>
 <script defer type="text/javascript"
-  src="{% static  'blog/wp-content/plugins/jet-blog/assets/js/jet-blog.min.js@ver=2.4.0' %}" 
-  id="jet-blog-js"></script>
+  src="{% static  'blog/wp-content/plugins/jet-blog/assets/js/jet-blog.min.js@ver=2.4.0' %}" id="jet-blog-js"></script>
 <script defer type="text/javascript"
   src="{% static  'blog/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js@ver=4.1.4' %}"
   id="flatpickr-js"></script>

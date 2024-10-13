@@ -17,7 +17,7 @@ def canada_indian_students_view(request):
     return render(request,'blog/best-canadian-universities-for-indian-students.html')
 
 def test_view(request):
-    return render(request,'blog/test.html')
+    return render(request,'blog/study-data-science-in-europe.html')
 
 def master_europe_view(request):
-    return render(request,'blog/masters-programs-in-europe.html')
+    return render(request,'blog/test.html')

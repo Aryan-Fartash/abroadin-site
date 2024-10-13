@@ -4,7 +4,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Log In &lsaquo; Abroadin  &#8212; WordPress</title>
 	<meta name='robots' content='noindex, follow' />
-<link rel='dns-prefetch' href='//www.google.com' />
 <link rel='dns-prefetch' href='//www.googletagmanager.com' />
 <script type="text/javascript" src="https://abroadin.com/blog/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://abroadin.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
@@ -65,8 +64,7 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }
 		<p id="backtoblog">
 			<a href="https://abroadin.com/blog/">&larr; Go to Abroadin </a>		</p>
 			</div>
-			<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?ver=1.22" id="wpcaptcha-recaptcha-js"></script>
-<script type="text/javascript" id="zxcvbn-async-js-extra">
+			<script type="text/javascript" id="zxcvbn-async-js-extra">
 /* <![CDATA[ */
 var _zxcvbnSettings = {"src":"https:\/\/abroadin.com\/blog\/wp-includes\/js\/zxcvbn.min.js"};
 /* ]]> */
@@ -94,7 +92,7 @@ var _wpUtilSettings = {"ajax":{"url":"\/blog\/wp-admin\/admin-ajax.php"}};
 <script type="text/javascript" src="https://abroadin.com/blog/wp-includes/js/wp-util.min.js?ver=6.6.2" id="wp-util-js"></script>
 <script type="text/javascript" id="user-profile-js-extra">
 /* <![CDATA[ */
-var userProfileL10n = {"user_id":"0","nonce":"00111951f3"};
+var userProfileL10n = {"user_id":"0","nonce":"c95ef8dff8"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://abroadin.com/blog/wp-admin/js/user-profile.min.js?ver=6.6.2" id="user-profile-js"></script>
