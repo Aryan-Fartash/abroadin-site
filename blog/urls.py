@@ -16,4 +16,5 @@ urlpatterns = [
     path('best-canadian-universities-for-indian-students',canada_indian_students_view,name='best-canadian-universities-for-indian-students'),
     path('test',test_view), 
     path('masters-programs-in-europe',master_europe_view,name='masters-programs-in-europe'),
+    path('working-limits-in-canada-for-international-students',working_limit_international_view,name='working-limits-in-canada-for-international-students'),
 ]
