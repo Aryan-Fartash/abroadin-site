@@ -20,10 +20,22 @@ def test_view(request):
     return render(request,'blog/study-data-science-in-europe.html')
 
 def master_europe_view(request):
-    return render(request,'blog/test.html')
+    return render(request,'blog/masters-programs-in-europe.html')
 
 def working_limit_international_view(request):
     return render(request,'blog/working-limits-in-canada-for-international-students.html')
 
 def working_on_a_student_visa_view(request):
     return render(request,'blog/working-on-a-student-visa.html')
+
+def apply_us_colleges_view(request):
+    return render(request,'blog/how-to-apply-to-us-colleges.html')
+
+def scholarships_african_view(request):
+    return render(request,'blog/scholarships-for-african-students.html')
+
+def data_europe_view(request):
+    return render(request,'blog/study-data-science-in-europe.html')
+
+def english_usa_view(request):
+    return render(request,'blog/studying-english-in-the-usa.html')

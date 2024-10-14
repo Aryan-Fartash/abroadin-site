@@ -18,4 +18,8 @@ urlpatterns = [
     path('masters-programs-in-europe',master_europe_view,name='masters-programs-in-europe'),
     path('working-limits-in-canada-for-international-students',working_limit_international_view,name='working-limits-in-canada-for-international-students'),
     path('working-on-a-student-visa',working_on_a_student_visa_view,name='working-on-a-student-visa'),
+    path('how-to-apply-to-us-colleges',apply_us_colleges_view,name='how-to-apply-to-us-colleges'),
+    path('scholarships-for-african-students',scholarships_african_view,name='scholarships-for-african-students'),
+    path('study-data-science-in-europe',data_europe_view,name='study-data-science-in-europe'),
+    path('studying-english-in-the-usa',english_usa_view,name='studying-english-in-the-usa'),
 ]
