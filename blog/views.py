@@ -21,5 +21,9 @@ def test_view(request):
 
 def master_europe_view(request):
     return render(request,'blog/test.html')
+
 def working_limit_international_view(request):
     return render(request,'blog/working-limits-in-canada-for-international-students.html')
+
+def working_on_a_student_visa_view(request):
+    return render(request,'blog/working-on-a-student-visa.html')

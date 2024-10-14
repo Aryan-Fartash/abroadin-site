@@ -17,4 +17,5 @@ urlpatterns = [
     path('test',test_view), 
     path('masters-programs-in-europe',master_europe_view,name='masters-programs-in-europe'),
     path('working-limits-in-canada-for-international-students',working_limit_international_view,name='working-limits-in-canada-for-international-students'),
+    path('working-on-a-student-visa',working_on_a_student_visa_view,name='working-on-a-student-visa'),
 ]
