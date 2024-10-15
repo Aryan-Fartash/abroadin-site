@@ -39,3 +39,12 @@ def data_europe_view(request):
 
 def english_usa_view(request):
     return render(request,'blog/studying-english-in-the-usa.html')
+
+def study_abroad_consultant_view(request):
+    return render(request,'blog/study-abroad-consultant.html')
+
+def fully_funded_scholarships_view(request):
+    return render(request,'blog/fully-funded-scholarships-for-international-students.html')
+
+def free_consultation_view(request):
+    return render(request,'blog/free-consultation.html')

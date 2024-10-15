@@ -22,4 +22,7 @@ urlpatterns = [
     path('scholarships-for-african-students',scholarships_african_view,name='scholarships-for-african-students'),
     path('study-data-science-in-europe',data_europe_view,name='study-data-science-in-europe'),
     path('studying-english-in-the-usa',english_usa_view,name='studying-english-in-the-usa'),
+    path('study-abroad-consultant',study_abroad_consultant_view,name='study-abroad-consultant'),
+    path('fully-funded-scholarships-for-international-students',fully_funded_scholarships_view,name='fully-funded-scholarships'),
+    path('free-consultation',free_consultation_view,name='free-consultation'),   
 ]
