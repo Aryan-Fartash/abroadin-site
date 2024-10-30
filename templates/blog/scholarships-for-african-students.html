@@ -1,4 +1,4 @@
-{% extends 'test.html' %}
+{% extends 'base.html' %}
 {% load static %}
 {% block content %}
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
   <title>Scholarships for African Students Available for 2025 - Abroadin</title>
   <meta name="description"
     content="Are you a student from Africa looking for scholarships? Let’s check the scholarships for African students for the upcoming year" />
-  <link rel="canonical" href="https://abroadin.com/blog/scholarships-for-african-students/" />
+  <link rel="canonical" href="{% url 'blog:scholarships-for-african-students' %}" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Scholarships for African Students Available for 2025" />
@@ -717,7 +717,7 @@
                           <div class="elementor-widget-container">
                             <div class="elementor-button-wrapper"> <a
                                 class="elementor-button elementor-button-link elementor-size-sm"
-                                href="https://abroadin.com/blog/free-consultation/" target="_blank"> <span
+                                href="{% url 'blog:free-consultation' %}" target="_blank"> <span
                                   class="elementor-button-content-wrapper"> <span class="elementor-button-text">Get
                                     consultation</span> </span> </a></div>
                           </div>
@@ -1496,7 +1496,7 @@
                         class="raven-grid-item raven-post-item post-2700 post type-post status-publish format-standard has-post-thumbnail hentry category-destinations category-universities tag-abroadin tag-canada tag-canada-visa tag-canadian-scholarship tag-canadian-universities tag-country-for-studying tag-indian-students tag-international-education tag-international-students tag-study-canada tag-study-in-canada">
                         <div class="raven-post">
                           <div class="raven-post-image-wrap"> <a class="raven-post-image raven-image-fit"
-                              href="https://abroadin.com/blog/best-canadian-universities-for-indian-students/"><img
+                              href="{% url 'blog:best-canadian-universities-for-indian-students' %}"><img
                                 loading="lazy" width="800" height="600"
                                 src="{% static   'blog/wp-content/uploads/2024/08/Untitled-design-26.jpg' %}"
                                 class="attachment-large size-large wp-image-2746" alt="" /> <span
@@ -1507,7 +1507,7 @@
                                   href="https://abroadin.com/blog/category/destinations/universities/"
                                   rel="tag">Universities</a></span></div>
                             <h3 class="raven-post-title"><a class="raven-post-title-link"
-                                href="https://abroadin.com/blog/best-canadian-universities-for-indian-students/">Best
+                                href="{% url 'blog:best-canadian-universities-for-indian-students' %}">Best
                                 Canadian Universities for Indian Students in 2025: TOP TEN</a></h3>
                             <div class="raven-post-excerpt">Choosing the right institution for studying abroad can be
                               challenging</div>
@@ -1518,7 +1518,7 @@
                         class="raven-grid-item raven-post-item post-2685 post type-post status-publish format-standard has-post-thumbnail hentry category-requirements category-study-abroad tag-abroadin tag-country-for-studying tag-international-student tag-international-students tag-study-abroad tag-study-in-usa tag-study-usa">
                         <div class="raven-post">
                           <div class="raven-post-image-wrap"> <a class="raven-post-image raven-image-fit"
-                              href="https://abroadin.com/blog/how-to-apply-to-us-colleges/"><img loading="lazy"
+                              href="{% url 'blog:how-to-apply-to-us-colleges' %}"><img loading="lazy"
                                 width="1024" height="683"
                                 src="{% static   'blog/wp-content/uploads/2024/08/happy-friends-holding-usa-flags-1024x683.webp' %}"
                                 class="attachment-large size-large wp-image-2686" alt="how to apply to us colleges" />
@@ -1529,7 +1529,7 @@
                                   rel="tag">Requirements</a>, <a href="https://abroadin.com/blog/category/study-abroad/"
                                   rel="tag">Study Abroad</a></span></div>
                             <h3 class="raven-post-title"><a class="raven-post-title-link"
-                                href="https://abroadin.com/blog/how-to-apply-to-us-colleges/">How to Apply to US
+                                href="{% url 'blog:how-to-apply-to-us-colleges' %}">How to Apply to US
                                 Colleges | Guide for International Students</a></h3>
                             <div class="raven-post-excerpt">Applying to colleges in the US as an international student
                             </div>

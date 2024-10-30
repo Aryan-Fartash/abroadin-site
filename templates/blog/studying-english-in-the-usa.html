@@ -1,4 +1,4 @@
-{% extends 'test.html' %}
+{% extends 'base.html' %}
 {% load static %}
 {% block content %}
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
     <title>Studying English in the USA | TOP 20 Lowest-Cost Courses - Abroadin</title>
     <meta name="description"
         content="If you are looking for the best yet lowest-cost courses to study English in the US, Abroadin has handpicked the top 20 lowest-cost ones." />
-    <link rel="canonical" href="https://abroadin.com/blog/studying-english-in-the-usa/" />
+    <link rel="canonical" href="{% url 'blog:studying-english-in-the-usa' %}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Studying English in the USA | TOP 20 Lowest-Cost Courses" />
@@ -714,7 +714,7 @@
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper"> <a
                                                                 class="elementor-button elementor-button-link elementor-size-sm"
-                                                                href="https://abroadin.com/blog/free-consultation/"
+                                                                href="{% url 'blog:free-consultation' %}"
                                                                 target="_blank"> <span
                                                                     class="elementor-button-content-wrapper"> <span
                                                                         class="elementor-button-text">Get
@@ -1815,7 +1815,7 @@
                                                 <div class="raven-post">
                                                     <div class="raven-post-image-wrap"> <a
                                                             class="raven-post-image raven-image-fit"
-                                                            href="https://abroadin.com/blog/best-canadian-universities-for-indian-students/"><img
+                                                            href="{% url 'blog:best-canadian-universities-for-indian-students' %}"><img
                                                                 loading="lazy" width="800" height="600"
                                                                 src="{% static   'blog/wp-content/uploads/2024/08/Untitled-design-26.jpg' %}"
                                                                 class="attachment-large size-large wp-image-2746"
@@ -1829,7 +1829,7 @@
                                                                     href="https://abroadin.com/blog/category/destinations/universities/"
                                                                     rel="tag">Universities</a></span></div>
                                                         <h3 class="raven-post-title"><a class="raven-post-title-link"
-                                                                href="https://abroadin.com/blog/best-canadian-universities-for-indian-students/">Best
+                                                                href="{% url 'blog:best-canadian-universities-for-indian-students' %}">Best
                                                                 Canadian Universities for Indian Students in 2025: TOP
                                                                 TEN</a></h3>
                                                         <div class="raven-post-excerpt">Choosing the right institution
@@ -1842,7 +1842,7 @@
                                                 <div class="raven-post">
                                                     <div class="raven-post-image-wrap"> <a
                                                             class="raven-post-image raven-image-fit"
-                                                            href="https://abroadin.com/blog/how-to-apply-to-us-colleges/"><img
+                                                            href="{% url 'blog:how-to-apply-to-us-colleges' %}"><img
                                                                 loading="lazy" width="1024" height="683"
                                                                 src="https://abroadin.com/blog/wp-content/uploads/2024/08/happy-friends-holding-usa-flags-1024x683.webp"
                                                                 class="attachment-large size-large wp-image-2686"
@@ -1856,7 +1856,7 @@
                                                                     href="https://abroadin.com/blog/category/study-abroad/"
                                                                     rel="tag">Study Abroad</a></span></div>
                                                         <h3 class="raven-post-title"><a class="raven-post-title-link"
-                                                                href="https://abroadin.com/blog/how-to-apply-to-us-colleges/">How
+                                                                href="{% url 'blog:how-to-apply-to-us-colleges' %}">How
                                                                 to Apply to US Colleges | Guide for International
                                                                 Students</a></h3>
                                                         <div class="raven-post-excerpt">Applying to colleges in the US

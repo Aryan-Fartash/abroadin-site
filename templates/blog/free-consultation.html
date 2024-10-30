@@ -1,4 +1,4 @@
-{% extends 'test.html' %}
+{% extends 'base.html' %}
 {% load static %}
 {% block content %}
 <!DOCTYPE html>
@@ -11,7 +11,7 @@
 	<link rel="preload" href="{% static   'blog/wp-content/plugins/rate-my-post/public/css/fonts/ratemypost.ttf' %}"
 		type="font/ttf" as="font" crossorigin="anonymous">
 	<title>free consultation - Abroadin</title>
-	<link rel="canonical" href="https://abroadin.com/blog/free-consultation/" />
+	<link rel="canonical" href="{% url 'blog:free-consultation' %}" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="free consultation" />

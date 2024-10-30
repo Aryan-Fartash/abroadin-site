@@ -1,4 +1,4 @@
-{% extends 'test.html' %}
+{% extends 'base.html' %}
 {% load static %}
 {% block content %}
 <!DOCTYPE html>
@@ -680,7 +680,7 @@
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper"> <a
                                                                 class="elementor-button elementor-button-link elementor-size-sm"
-                                                                href="https://abroadin.com/blog/free-consultation/"
+                                                                href="{% url 'blog:free-consultation' %}"
                                                                 target="_blank"> <span
                                                                     class="elementor-button-content-wrapper"> <span
                                                                         class="elementor-button-text">Get
@@ -731,7 +731,7 @@
                                                                 <div class="raven-post">
                                                                     <div class="raven-post-image-wrap"> <a
                                                                             class="raven-post-image raven-image-fit"
-                                                                            href="https://abroadin.com/blog/working-on-a-student-visa/"><img
+                                                                            href="{% url 'blog:working-on-a-student-visa' %}"><img
                                                                                 decoding="async" width="1024"
                                                                                 height="683"
                                                                                 src="{% static   'blog/wp-content/uploads/2024/04/front-view-travel-agent-her-working-place-holding-credit-card-map-indoors-manager-worker-service-agency-operator-world-occupation-money-document-1024x683.webp' %}"
@@ -757,7 +757,7 @@
                                                                         </div>
                                                                         <h3 class="raven-post-title"><a
                                                                                 class="raven-post-title-link"
-                                                                                href="https://abroadin.com/blog/working-on-a-student-visa/">Working
+                                                                                href="{% url 'blog:working-on-a-student-visa' %}">Working
                                                                                 on a Student Visa in the 2024 US</a>
                                                                         </h3>
                                                                         <div class="raven-post-excerpt">  International
@@ -766,7 +766,7 @@
                                                                             any paid employment. However,</div>
                                                                         <div class="raven-post-read-more"> <a
                                                                                 class="raven-post-button"
-                                                                                href="https://abroadin.com/blog/working-on-a-student-visa/"><span
+                                                                                href="{% url 'blog:working-on-a-student-visa' %}"><span
                                                                                     class="raven-post-button-text">Read
                                                                                     More</span></a></div>
                                                                     </div>
@@ -777,7 +777,7 @@
                                                                 <div class="raven-post">
                                                                     <div class="raven-post-image-wrap"> <a
                                                                             class="raven-post-image raven-image-fit"
-                                                                            href="https://abroadin.com/blog/working-limits-in-canada-for-international-students/"><img
+                                                                            href="{% url 'blog:working-limits-in-canada-for-international-students' %}"><img
                                                                                 decoding="async" width="1024"
                                                                                 height="682"
                                                                                 src="{% static   'blog/wp-content/uploads/2023/01/business-man-shows-laptop-his-colleague-office-1-1024x682.jpg' %}"
@@ -804,7 +804,7 @@
                                                                         </div>
                                                                         <h3 class="raven-post-title"><a
                                                                                 class="raven-post-title-link"
-                                                                                href="https://abroadin.com/blog/working-limits-in-canada-for-international-students/">Working
+                                                                                href="{% url 'blog:working-limits-in-canada-for-international-students' %}">Working
                                                                                 Limits in Canada for International
                                                                                 Students</a></h3>
                                                                         <div class="raven-post-excerpt">Working limits
@@ -813,7 +813,7 @@
                                                                             What are the working</div>
                                                                         <div class="raven-post-read-more"> <a
                                                                                 class="raven-post-button"
-                                                                                href="https://abroadin.com/blog/working-limits-in-canada-for-international-students/"><span
+                                                                                href="{% url 'blog:working-limits-in-canada-for-international-students' %}"><span
                                                                                     class="raven-post-button-text">Read
                                                                                     More</span></a></div>
                                                                     </div>
@@ -867,7 +867,7 @@
                                                                     class="raven-post raven-post-inline raven-post-inline-left">
                                                                     <div class="raven-post-image-wrap"> <a
                                                                             class="raven-post-image raven-image-fit"
-                                                                            href="https://abroadin.com/blog/best-canadian-universities-for-indian-students/"><img
+                                                                            href="{% url 'blog:best-canadian-universities-for-indian-students' %}"><img
                                                                                 loading="lazy" decoding="async"
                                                                                 width="800" height="600"
                                                                                 src="{% static   'blog/wp-content/uploads/2024/08/Untitled-design-26.jpg' %}"
@@ -893,7 +893,7 @@
                                                                         </div>
                                                                         <h3 class="raven-post-title"><a
                                                                                 class="raven-post-title-link"
-                                                                                href="https://abroadin.com/blog/best-canadian-universities-for-indian-students/">Best
+                                                                                href="{% url 'blog:best-canadian-universities-for-indian-students' %}">Best
                                                                                 Canadian Universities for Indian
                                                                                 Students in 2025: TOP TEN</a></h3>
                                                                         <div class="raven-post-excerpt">Choosing the
@@ -903,7 +903,7 @@
                                                                         </div>
                                                                         <div class="raven-post-read-more"> <a
                                                                                 class="raven-post-button"
-                                                                                href="https://abroadin.com/blog/best-canadian-universities-for-indian-students/"><span
+                                                                                href="{% url 'blog:best-canadian-universities-for-indian-students' %}"><span
                                                                                     class="raven-post-button-text">Read
                                                                                     More</span></a></div>
                                                                     </div>
@@ -915,7 +915,7 @@
                                                                     class="raven-post raven-post-inline raven-post-inline-left">
                                                                     <div class="raven-post-image-wrap"> <a
                                                                             class="raven-post-image raven-image-fit"
-                                                                            href="https://abroadin.com/blog/how-to-apply-to-us-colleges/"><img
+                                                                            href="{% url 'blog:how-to-apply-to-us-colleges' %}"><img
                                                                                 loading="lazy" decoding="async"
                                                                                 width="1024" height="683"
                                                                                 src="{% static   'blog/wp-content/uploads/2024/08/happy-friends-holding-usa-flags-1024x683.webp' %}"
@@ -941,7 +941,7 @@
                                                                         </div>
                                                                         <h3 class="raven-post-title"><a
                                                                                 class="raven-post-title-link"
-                                                                                href="https://abroadin.com/blog/how-to-apply-to-us-colleges/">How
+                                                                                href="{% url 'blog:how-to-apply-to-us-colleges' %}">How
                                                                                 to Apply to US Colleges | Guide for
                                                                                 International Students</a></h3>
                                                                         <div class="raven-post-excerpt">Applying to
@@ -950,7 +950,7 @@
                                                                             achievable with the right guidance.</div>
                                                                         <div class="raven-post-read-more"> <a
                                                                                 class="raven-post-button"
-                                                                                href="https://abroadin.com/blog/how-to-apply-to-us-colleges/"><span
+                                                                                href="{% url 'blog:how-to-apply-to-us-colleges' %}"><span
                                                                                     class="raven-post-button-text">Read
                                                                                     More</span></a></div>
                                                                     </div>
@@ -962,7 +962,7 @@
                                                                     class="raven-post raven-post-inline raven-post-inline-left">
                                                                     <div class="raven-post-image-wrap"> <a
                                                                             class="raven-post-image raven-image-fit"
-                                                                            href="https://abroadin.com/blog/scholarships-for-african-students/"><img
+                                                                            href="{% url 'blog:scholarships-for-african-students' %}"><img
                                                                                 loading="lazy" decoding="async"
                                                                                 width="1024" height="683"
                                                                                 src="{% static   'blog/wp-content/uploads/2024/08/study-group-african-people-1024x683.webp' %}"
@@ -988,7 +988,7 @@
                                                                         </div>
                                                                         <h3 class="raven-post-title"><a
                                                                                 class="raven-post-title-link"
-                                                                                href="https://abroadin.com/blog/scholarships-for-african-students/">Scholarships
+                                                                                href="{% url 'blog:scholarships-for-african-students' %}">Scholarships
                                                                                 for African Students Available for
                                                                                 2025</a></h3>
                                                                         <div class="raven-post-excerpt">Are you a
@@ -997,7 +997,7 @@
                                                                             Europe, America,</div>
                                                                         <div class="raven-post-read-more"> <a
                                                                                 class="raven-post-button"
-                                                                                href="https://abroadin.com/blog/scholarships-for-african-students/"><span
+                                                                                href="{% url 'blog:scholarships-for-african-students' %}"><span
                                                                                     class="raven-post-button-text">Read
                                                                                     More</span></a></div>
                                                                     </div>
@@ -1009,7 +1009,7 @@
                                                                     class="raven-post raven-post-inline raven-post-inline-left">
                                                                     <div class="raven-post-image-wrap"> <a
                                                                             class="raven-post-image raven-image-fit"
-                                                                            href="https://abroadin.com/blog/study-data-science-in-europe/"><img
+                                                                            href="{% url 'blog:study-data-science-in-europe' %}"><img
                                                                                 loading="lazy" decoding="async"
                                                                                 width="1024" height="683"
                                                                                 src="{% static   'blog/wp-content/uploads/2024/08/office-workers-using-finance-graphs-1024x683.webp' %}"
@@ -1035,7 +1035,7 @@
                                                                         </div>
                                                                         <h3 class="raven-post-title"><a
                                                                                 class="raven-post-title-link"
-                                                                                href="https://abroadin.com/blog/study-data-science-in-europe/">Study
+                                                                                href="{% url 'blog:study-data-science-in-europe' %}">Study
                                                                                 Data Science in Europe for Free in
                                                                                 2025</a></h3>
                                                                         <div class="raven-post-excerpt">Today progress
@@ -1045,7 +1045,7 @@
                                                                             intersection. Graduates</div>
                                                                         <div class="raven-post-read-more"> <a
                                                                                 class="raven-post-button"
-                                                                                href="https://abroadin.com/blog/study-data-science-in-europe/"><span
+                                                                                href="{% url 'blog:study-data-science-in-europe' %}"><span
                                                                                     class="raven-post-button-text">Read
                                                                                     More</span></a></div>
                                                                     </div>
@@ -1057,7 +1057,7 @@
                                                                     class="raven-post raven-post-inline raven-post-inline-left">
                                                                     <div class="raven-post-image-wrap"> <a
                                                                             class="raven-post-image raven-image-fit"
-                                                                            href="https://abroadin.com/blog/masters-programs-in-europe/"><img
+                                                                            href="{% url 'blog:masters-programs-in-europe' %}"><img
                                                                                 loading="lazy" decoding="async"
                                                                                 width="1024" height="707"
                                                                                 src="{% static   'blog/wp-content/uploads/2024/08/hands-waving-flags-europeanunion-1024x707.webp' %}"
@@ -1083,7 +1083,7 @@
                                                                         </div>
                                                                         <h3 class="raven-post-title"><a
                                                                                 class="raven-post-title-link"
-                                                                                href="https://abroadin.com/blog/masters-programs-in-europe/">To
+                                                                                href="{% url 'blog:masters-programs-in-europe' %}">To
                                                                                 10 Masters Programs in Europe for
                                                                                 American Students</a></h3>
                                                                         <div class="raven-post-excerpt">If you are
@@ -1092,7 +1092,7 @@
                                                                             American-style university, there</div>
                                                                         <div class="raven-post-read-more"> <a
                                                                                 class="raven-post-button"
-                                                                                href="https://abroadin.com/blog/masters-programs-in-europe/"><span
+                                                                                href="{% url 'blog:masters-programs-in-europe' %}"><span
                                                                                     class="raven-post-button-text">Read
                                                                                     More</span></a></div>
                                                                     </div>
@@ -1104,7 +1104,7 @@
                                                                     class="raven-post raven-post-inline raven-post-inline-left">
                                                                     <div class="raven-post-image-wrap"> <a
                                                                             class="raven-post-image raven-image-fit"
-                                                                            href="https://abroadin.com/blog/studying-english-in-the-usa/"><img
+                                                                            href="{% url 'blog:studying-english-in-the-usa' %}"><img
                                                                                 loading="lazy" decoding="async"
                                                                                 width="1024" height="683"
                                                                                 src="{% static   'blog/wp-content/uploads/2024/07/statue-liberty-new-york-city-skyline-usa-1024x683.webp' %}"
@@ -1130,7 +1130,7 @@
                                                                         </div>
                                                                         <h3 class="raven-post-title"><a
                                                                                 class="raven-post-title-link"
-                                                                                href="https://abroadin.com/blog/studying-english-in-the-usa/">Studying
+                                                                                href="{% url 'blog:studying-english-in-the-usa' %}">Studying
                                                                                 English in the USA | TOP 20 Lowest-Cost
                                                                                 Courses</a></h3>
                                                                         <div class="raven-post-excerpt">Studying English
@@ -1140,7 +1140,7 @@
                                                                         </div>
                                                                         <div class="raven-post-read-more"> <a
                                                                                 class="raven-post-button"
-                                                                                href="https://abroadin.com/blog/studying-english-in-the-usa/"><span
+                                                                                href="{% url 'blog:studying-english-in-the-usa' %}"><span
                                                                                     class="raven-post-button-text">Read
                                                                                     More</span></a></div>
                                                                     </div>
