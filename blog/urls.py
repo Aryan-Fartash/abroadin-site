@@ -24,5 +24,7 @@ urlpatterns = [
     path('studying-english-in-the-usa',english_usa_view,name='studying-english-in-the-usa'),
     path('study-abroad-consultant',study_abroad_consultant_view,name='study-abroad-consultant'),
     path('fully-funded-scholarships-for-international-students',fully_funded_scholarships_view,name='fully-funded-scholarships'),
-    path('free-consultation',free_consultation_view,name='free-consultation'),   
+    path('free-consultation',free_consultation_view,name='free-consultation'),
+    path('types-of-scholarships-in-canada',types_of_scholarships_in_canada_view,name='types-of-scholarships-in-canada'),
+    path('german-student-visa-for-indian-students',german_student_visa_for_indian_view,name='german-student-visa-for-indian'),   
 ]

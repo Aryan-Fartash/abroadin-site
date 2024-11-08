@@ -48,3 +48,9 @@ def fully_funded_scholarships_view(request):
 
 def free_consultation_view(request):
     return render(request,'blog/free-consultation.html')
+
+def types_of_scholarships_in_canada_view(request):
+    return render(request,'blog/types-of-scholarships-in-canada.html')
+
+def german_student_visa_for_indian_view(request):
+    return render(request,'blog/german-student-visa-for-indian-students.html')
